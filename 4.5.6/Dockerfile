@@ -2,6 +2,7 @@ FROM sonarqube:4.5.6
 
 MAINTAINER Istvan Palocz <istvan@palocz.hu>
 
+ENV SONARQUBE_HOME /opt/sonarqube
 ENV $SONAR_PLUGIN_HOME $SONAR_HOME/extensions/plugins
 
 RUN set -x \
